@@ -15,6 +15,7 @@ function getData() {
 
 $('#contact').on('submit', function(e) {
   e.preventDefault();
+  console.log('fired');
   // var verb = $('#verb').val();
   getData();
 })
