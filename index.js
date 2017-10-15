@@ -13,7 +13,6 @@ function getData() {
   $.ajax(settings);
 }
 
-
 $('#contact').on('submit', function(e) {
   e.preventDefault();
   // var verb = $('#verb').val();
