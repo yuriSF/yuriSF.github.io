@@ -2,7 +2,7 @@ function getData() {
   var settings = {
     url: 'https://email-contact-form.herokuapp.com/contact',
     dataType: 'json',
-    type: 'post',
+    type: 'get',
     success: function displayData(data) {
       console.log('success')
     },
