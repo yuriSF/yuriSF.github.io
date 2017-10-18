@@ -1809,7 +1809,9 @@
 			}
 
 				.box.style1 {
-					padding: 3em 2em 2em 2em;;
+					padding: 3em 2em 2em 2em;
+					width: 27em;
+					height: 38em;
 				}
 
 					.box.style1 h3 {
@@ -2136,4 +2138,27 @@ section {
 	flex-direction: column;
 	justify-content: space-between;
 	height: 77em;
+}
+
+.source-code > a {
+	text-decoration: none;
+}
+
+#nlp-samples {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nlp-projects:hover {
+	cursor: pointer;
+}
+
+.nlp-projects {
+	background: white none repeat scroll 0% 0%;
+	width: 290px;
+	height: auto;
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
 }
