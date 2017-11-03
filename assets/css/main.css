@@ -2172,3 +2172,7 @@ section {
 .source-code > a:hover {
 	font-weight: bold;
 }
+
+.my-wrapper4 {
+	background-color: #303030;
+}
